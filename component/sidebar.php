@@ -54,7 +54,7 @@
       </a>
       <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
-          <a href="order.php">
+          <a href="order-list.php">
             <i class="bi bi-circle"></i><span>Order List</span>
           </a>
         </li>
