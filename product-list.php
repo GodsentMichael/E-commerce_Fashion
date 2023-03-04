@@ -42,7 +42,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col">#</th>
+                                        <th scope="col">S/N</th>
                                         <th scope="col">images</th>
                                         <th scope="col">Product Name</th>
                                         <th scope="col">Description</th>

@@ -24,7 +24,7 @@
       </a>
       <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
-          <a href="transaction-history.php">
+          <a href="sales.php">
             <i class="bi bi-circle"></i><span>Sales History</span>
           </a>
         </li>
@@ -67,7 +67,7 @@
     </li>
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="#">
+      <a class="nav-link collapsed" href="page-login.php">
         <i class="bi bi-box-arrow-in-right"></i>
         <span>Login</span>
       </a>
