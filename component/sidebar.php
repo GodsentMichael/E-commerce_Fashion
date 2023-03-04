@@ -67,7 +67,7 @@
     </li>
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="#">
+      <a class="nav-link collapsed" href="page-login.php">
         <i class="bi bi-box-arrow-in-right"></i>
         <span>Login</span>
       </a>
