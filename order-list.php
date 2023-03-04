@@ -19,7 +19,7 @@
             <h1>Order List</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Otrder List</a></li>
+                    <li class="breadcrumb-item"><a href="#">Order List</a></li>
                     <li class="breadcrumb-item active">View Prodouct List Here</li>
                 </ol>
             </nav>
