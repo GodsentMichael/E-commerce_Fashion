@@ -22,11 +22,11 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Customer List</h1>
+            <h1>Product List</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Customer List</a></li>
-                    <li class="breadcrumb-item active">View Customer List Here</li>
+                    <li class="breadcrumb-item"><a href="#">Product List</a></li>
+                    <li class="breadcrumb-item active">View Prodouct List Here</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -43,26 +43,35 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">Customer Name</th>
-                                        <th scope="col">Street</th>
-                                        <th scope="col">City</th>
-                                        <th scope="col">State</th>
-                                        <th scope="col">ZIP</th>
-                                        <th scope="col">Phone</th>
-                                        <th scope="col">Alternate Phone</th>
-                                        <th scope="col">Inactive</th>
+                                        <th scope="col">images</th>
+                                        <th scope="col">Product Name</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Attributes</th>
+                                        <th scope="col">Size</th>
+                                        <th scope="col">Regular Pricing</th>
+                                        <th scope="col">On-hand Quality</th>
+                                        <th scope="col">On-Order</th>
+                                        <th scope="col">Rating</th>
+                                        <th scope="col">Category</th>
+                                        <th scope="col">Alternative Lookup</th>
+                                        <th scope="col">Creation Date</th>
+                                        <th scope="col"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
+                                        <td></td>
                                         <td>Brandon Jacob</td>
-                                        <td>Elekiah</td>
-                                        <td>PH</td>
-                                        <td>Rivers</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
                                         <td>28</td>
-                                        <td>01000290</td>
-                                        <td>01000290</td>
                                         <td>2016-05-25</td>
                                         <td>
                                             <div class="dropdown">
@@ -70,21 +79,26 @@
                                                     Action
                                                 </button>
                                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">View Details</a></li>
-                                                    <li><a class="dropdown-item" href="#">Block</a></li>
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Out of Stock</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
                                                 </ul>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
+                                        <td></td>
                                         <td>Brandon Jacob</td>
-                                        <td>Elekiah</td>
-                                        <td>PH</td>
-                                        <td>Rivers</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
+                                        <td>Designer</td>
                                         <td>28</td>
-                                        <td>01000290</td>
-                                        <td>01000290</td>
                                         <td>2016-05-25</td>
                                         <td>
                                             <div class="dropdown">
@@ -92,8 +106,9 @@
                                                     Action
                                                 </button>
                                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">View Details</a></li>
-                                                    <li><a class="dropdown-item" href="#">Block</a></li>
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Out of Stock</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
                                                 </ul>
                                             </div>
                                         </td>

@@ -22,11 +22,11 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Customer List</h1>
+            <h1>Product Category</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Customer List</a></li>
-                    <li class="breadcrumb-item active">View Customer List Here</li>
+                    <li class="breadcrumb-item"><a href="#">Product Category</a></li>
+                    <li class="breadcrumb-item active">View Prodouct Category Here</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -37,32 +37,19 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title"></h5>
-
-                            <!-- Default Table -->
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Customer Name</th>
-                                        <th scope="col">Street</th>
-                                        <th scope="col">City</th>
-                                        <th scope="col">State</th>
-                                        <th scope="col">ZIP</th>
-                                        <th scope="col">Phone</th>
-                                        <th scope="col">Alternate Phone</th>
-                                        <th scope="col">Inactive</th>
+                                        <th scope="col">S/N</th>
+                                        <th scope="col">Category Name</th>
+                                        <th scope="col">Creation Date</th>
+                                        <th scope="col"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>Brandon Jacob</td>
-                                        <td>Elekiah</td>
-                                        <td>PH</td>
-                                        <td>Rivers</td>
-                                        <td>28</td>
-                                        <td>01000290</td>
-                                        <td>01000290</td>
                                         <td>2016-05-25</td>
                                         <td>
                                             <div class="dropdown">
@@ -70,37 +57,30 @@
                                                     Action
                                                 </button>
                                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">View Details</a></li>
-                                                    <li><a class="dropdown-item" href="#">Block</a></li>
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
                                                 </ul>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Brandon Jacob</td>
-                                        <td>Elekiah</td>
-                                        <td>PH</td>
-                                        <td>Rivers</td>
-                                        <td>28</td>
-                                        <td>01000290</td>
-                                        <td>01000290</td>
-                                        <td>2016-05-25</td>
+                                        <td>Bridie Kessler</td>
+                                        <td>2014-12-05</td>
                                         <td>
                                             <div class="dropdown">
                                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                    <li><a class="dropdown-item" href="#">View Details</a></li>
-                                                    <li><a class="dropdown-item" href="#">Block</a></li>
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
                                                 </ul>
                                             </div>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <!-- End Default Table Example -->
                         </div>
                     </div>
                 </div>
