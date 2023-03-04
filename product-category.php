@@ -63,6 +63,9 @@
                                     <tr>
                                         <th scope="col">S/N</th>
                                         <th scope="col">Category Name</th>
+                                        <th scope="col">Number of Items</th>
+                                        <th scope="col">Actions</th>
+                                        <th scope="col"></th>
                                         <th scope="col">Creation Date</th>
                                         <th scope="col"><span class="float-end mt-3">Action</span></th>
                                     </tr>

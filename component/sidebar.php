@@ -24,7 +24,7 @@
       </a>
       <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
         <li>
-          <a href="transaction-history.php">
+          <a href="sales.php">
             <i class="bi bi-circle"></i><span>Sales History</span>
           </a>
         </li>
