@@ -49,12 +49,12 @@
                                         <th scope="col">Attributes</th>
                                         <th scope="col">Size</th>
                                         <th scope="col">Regular Pricing</th>
-                                        <th scope="col">On-hand Quality</th>
+                                        <th scope="col">On-hand Quatity</th>
                                         <th scope="col">On-Order</th>
-                                        <th scope="col">Rating</th>
+                                        <!-- <th scope="col">Rating</th> -->
                                         <th scope="col">Category</th>
-                                        <th scope="col">Alternative Lookup</th>
-                                        <th scope="col">Creation Date</th>
+                                        <!-- <th scope="col">Alternative Lookup</th> -->
+                                        <!-- <th scope="col">Creation Date</th> -->
                                         <th scope="col"></th>
                                     </tr>
                                 </thead>
@@ -70,9 +70,9 @@
                                         <td>Designer</td>
                                         <td>Designer</td>
                                         <td>Designer</td>
-                                        <td>Designer</td>
-                                        <td>28</td>
-                                        <td>2016-05-25</td>
+                                        <!-- <td>Designer</td>/ -->
+                                        <!-- <td>28</td> -->
+                                        <!-- <td>2016-05-25</td> -->
                                         <td>
                                             <div class="dropdown">
                                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -97,9 +97,9 @@
                                         <td>Designer</td>
                                         <td>Designer</td>
                                         <td>Designer</td>
-                                        <td>Designer</td>
-                                        <td>28</td>
-                                        <td>2016-05-25</td>
+                                        <!-- <td>Designer</td> -->
+                                        <!-- <td>28</td> -->
+                                        <!-- <td>2016-05-25</td> -->
                                         <td>
                                             <div class="dropdown">
                                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
