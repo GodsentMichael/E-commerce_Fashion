@@ -37,13 +37,33 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title"></h5>
+                            <button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#basicModal">
+                                New Category
+                            </button>
+                            <div class="modal fade" id="basicModal" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Add New Category</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <input type="text" class="form-control" placeholder="Add New Category">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary">Save</button>
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- End Basic Modal-->
                             <table class="table">
                                 <thead>
                                     <tr>
                                         <th scope="col">S/N</th>
                                         <th scope="col">Category Name</th>
                                         <th scope="col">Creation Date</th>
-                                        <th scope="col"></th>
+                                        <th scope="col"><span class="float-end mt-3">Action</span></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -52,7 +72,7 @@
                                         <td>Brandon Jacob</td>
                                         <td>2016-05-25</td>
                                         <td>
-                                            <div class="dropdown">
+                                            <div class="dropdown float-end">
                                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                                     Action
                                                 </button>
@@ -68,7 +88,7 @@
                                         <td>Bridie Kessler</td>
                                         <td>2014-12-05</td>
                                         <td>
-                                            <div class="dropdown">
+                                            <div class="dropdown float-end">
                                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                                     Action
                                                 </button>
