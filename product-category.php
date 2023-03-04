@@ -57,6 +57,7 @@
                                     </div>
                                 </div>
                             </div><!-- End Basic Modal-->
+                            <!-- this is where is did the  modal=========== -->
                             <table class="table">
                                 <thead>
                                     <tr>
