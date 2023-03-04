@@ -50,7 +50,6 @@
                                         <th scope="col">ZIP</th>
                                         <th scope="col">Phone</th>
                                         <th scope="col">Alternate Phone</th>
-                                        <th scope="col">Inactive</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -63,7 +62,6 @@
                                         <td>28</td>
                                         <td>01000290</td>
                                         <td>01000290</td>
-                                        <td>2016-05-25</td>
                                         <td>
                                             <div class="dropdown">
                                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -85,7 +83,6 @@
                                         <td>28</td>
                                         <td>01000290</td>
                                         <td>01000290</td>
-                                        <td>2016-05-25</td>
                                         <td>
                                             <div class="dropdown">
                                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

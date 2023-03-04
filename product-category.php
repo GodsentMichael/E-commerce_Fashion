@@ -64,8 +64,6 @@
                                         <th scope="col">S/N</th>
                                         <th scope="col">Category Name</th>
                                         <th scope="col">Number of Items</th>
-                                        <th scope="col">Actions</th>
-                                        <th scope="col"></th>
                                         <th scope="col">Creation Date</th>
                                         <th scope="col"><span class="float-end mt-3">Action</span></th>
                                     </tr>
@@ -74,6 +72,7 @@
                                     <tr>
                                         <th scope="row">1</th>
                                         <td>Brandon Jacob</td>
+                                        <td>3</td>
                                         <td>2016-05-25</td>
                                         <td>
                                             <div class="dropdown float-end">
@@ -89,8 +88,9 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Bridie Kessler</td>
-                                        <td>2014-12-05</td>
+                                        <td>Brandon Jacob</td>
+                                        <td>3</td>
+                                        <td>2016-05-25</td>
                                         <td>
                                             <div class="dropdown float-end">
                                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
