@@ -8,8 +8,6 @@
 </head>
 
 <body>
-
-  <!-- ======= Header ======= -->
   <?php
   include_once "component/header.php"
   ?>
@@ -17,15 +15,13 @@
   include_once "component/sidebar.php"
   ?>
 
-
-
   <main id="main" class="main">
 
     <div class="pagetitle">
       <h1>Dashboard</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
           <li class="breadcrumb-item active">Dashboard</li>
         </ol>
       </nav>
@@ -35,7 +31,7 @@
       <div class="row">
 
         <!-- Left side columns -->
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div class="row">
 
             <!-- Sales Card -->
@@ -98,7 +94,7 @@
                       <i class="bi bi-currency-dollar"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>$3,264</h6>
+                      <h6>₦3,264</h6>
                       <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
 
                     </div>
@@ -146,7 +142,7 @@
             </div><!-- End Customers Card -->
 
             <!-- Reports -->
-            <div class="col-12">
+            <!-- <div class="col-12">
               <div class="card">
 
                 <div class="filter">
@@ -168,7 +164,7 @@
                   <!-- Line Chart -->
                   <div id="reportsChart"></div>
 
-                  <script>
+                  <!-- <script>
                     document.addEventListener("DOMContentLoaded", () => {
                       new ApexCharts(document.querySelector("#reportsChart"), {
                         series: [{
@@ -219,13 +215,14 @@
                         }
                       }).render();
                     });
-                  </script>
+                  </script> -->
                   <!-- End Line Chart -->
 
-                </div>
+                <!-- </div> -->
 
-              </div>
-            </div><!-- End Reports -->
+              <!-- </div> -->
+            <!-- </div>  -->
+            <!-- End Reports -->
 
             <!-- Recent Sales -->
             <div class="col-12">
@@ -250,7 +247,7 @@
                   <table class="table table-borderless datatable">
                     <thead>
                       <tr>
-                        <th scope="col">#</th>
+                        <th scope="col">S/N</th>
                         <th scope="col">Customer</th>
                         <th scope="col">Product</th>
                         <th scope="col">Price</th>
@@ -259,38 +256,38 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Brandon Jacob</td>
-                        <td><a href="#" class="text-primary">At praesentium minu</a></td>
-                        <td>$64</td>
+                        <th scope="row"><a href="#">1</a></th>
+                        <td>Brandon Nnamdi</td>
+                        <td><a href="#" class="text-primary">Purple Haze Hoodie</a></td>
+                        <td>₦6400</td>
                         <td><span class="badge bg-success">Approved</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2147</a></th>
-                        <td>Bridie Kessler</td>
-                        <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
-                        <td>$47</td>
+                        <th scope="row"><a href="#">2</a></th>
+                        <td>Kolawole Jacobs</td>
+                        <td><a href="#" class="text-primary">Organic Cotton T-Shirt</a></td>
+                        <td>₦47</td>
                         <td><span class="badge bg-warning">Pending</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2049</a></th>
-                        <td>Ashleigh Langosh</td>
-                        <td><a href="#" class="text-primary">At recusandae consectetur</a></td>
-                        <td>$147</td>
+                        <th scope="row"><a href="#">3</a></th>
+                        <td>Ashley Maduka</td>
+                        <td><a href="#" class="text-primary">Rose Quartz Crystal Necklace</a></td>
+                        <td>₦14700</td>
                         <td><span class="badge bg-success">Approved</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2644</a></th>
-                        <td>Angus Grady</td>
-                        <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td>
-                        <td>$67</td>
+                        <th scope="row"><a href="#">4</a></th>
+                        <td>Yakuba Rabiu</td>
+                        <td><a href="#" class="text-primar">Black Emroided Agbada</a></td>
+                        <td>₦67000</td>
                         <td><span class="badge bg-danger">Rejected</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2644</a></th>
-                        <td>Raheem Lehner</td>
-                        <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
-                        <td>$165</td>
+                        <th scope="row"><a href="#">5</a></th>
+                        <td>Tabitha Lemenebari</td>
+                        <td><a href="#" class="text-primary">Silk Red Gown</a></td>
+                        <td>₦6700</td>
                         <td><span class="badge bg-success">Approved</span></td>
                       </tr>
                     </tbody>
@@ -334,38 +331,38 @@
                     <tbody>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-1.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa voluptas nulla</a></td>
-                        <td>$64</td>
+                        <td><a href="#" class="text-primary fw-bold">Blueberry Muffin Mix</a></td>
+                        <td>₦7,400</td>
                         <td class="fw-bold">124</td>
-                        <td>$5,828</td>
+                        <td>₦7,200</td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-2.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Exercitationem similique doloremque</a></td>
-                        <td>$46</td>
+                        <td><a href="#" class="text-primary fw-bold">Matcha Green Tea Powder</a></td>
+                        <td>₦6,400</td>
                         <td class="fw-bold">98</td>
-                        <td>$4,508</td>
+                        <td>₦4,508</td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-3.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Doloribus nisi exercitationem</a></td>
-                        <td>$59</td>
+                        <td><a href="#" class="text-primary fw-bold">Stainless Steel Water Bottle</a></td>
+                        <td>₦5,400</td>
                         <td class="fw-bold">74</td>
-                        <td>$4,366</td>
+                        <td>₦4,366</td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-4.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Officiis quaerat sint rerum error</a></td>
-                        <td>$32</td>
+                        <td><a href="#" class="text-primary fw-bold">Antique Brass Table Lamp</a></td>
+                        <td>₦2,000</td>
                         <td class="fw-bold">63</td>
-                        <td>$2,016</td>
+                        <td>₦2,016</td>
                       </tr>
                       <tr>
                         <th scope="row"><a href="#"><img src="assets/img/product-5.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Sit unde debitis delectus repellendus</a></td>
-                        <td>$79</td>
+                        <td><a href="#" class="text-primary fw-bold">Natural Wood Cutting Board</a></td>
+                        <td>₦7,900</td>
                         <td class="fw-bold">41</td>
-                        <td>$3,239</td>
+                        <td>₦3,239</td>
                       </tr>
                     </tbody>
                   </table>
@@ -379,10 +376,10 @@
         </div><!-- End Left side columns -->
 
         <!-- Right side columns -->
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4"> -->
 
           <!-- Recent Activity -->
-          <div class="card">
+           <!-- <div class="card">
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
               <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -394,68 +391,75 @@
                 <li><a class="dropdown-item" href="#">This Month</a></li>
                 <li><a class="dropdown-item" href="#">This Year</a></li>
               </ul>
-            </div>
+            </div> -->
 
-            <div class="card-body">
+            <!-- <div class="card-body">
               <h5 class="card-title">Recent Activity <span>| Today</span></h5>
 
-              <div class="activity">
+              <div class="activity"> -->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">32 min</div>
                   <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
                   <div class="activity-content">
                     Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
                   </div>
-                </div><!-- End activity item-->
+                </div> -->
+                <!-- End activity item-->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">56 min</div>
                   <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
                   <div class="activity-content">
                     Voluptatem blanditiis blanditiis eveniet
                   </div>
-                </div><!-- End activity item-->
+                </div> -->
+                <!-- End activity item-->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">2 hrs</div>
                   <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
                   <div class="activity-content">
                     Voluptates corrupti molestias voluptatem
                   </div>
-                </div><!-- End activity item-->
+                </div> -->
+                <!-- End activity item-->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">1 day</div>
                   <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
                   <div class="activity-content">
                     Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
                   </div>
-                </div><!-- End activity item-->
+                </div> -->
+                <!-- End activity item-->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">2 days</div>
                   <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
                   <div class="activity-content">
                     Est sit eum reiciendis exercitationem
                   </div>
-                </div><!-- End activity item-->
+                </div> -->
+                <!-- End activity item-->
 
-                <div class="activity-item d-flex">
+                <!-- <div class="activity-item d-flex">
                   <div class="activite-label">4 weeks</div>
                   <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
                   <div class="activity-content">
                     Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
                   </div>
-                </div><!-- End activity item-->
+                </div> -->
+                <!-- End activity item-->
 
-              </div>
+              <!-- </div> -->
 
-            </div>
-          </div><!-- End Recent Activity -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <!-- End Recent Activity -->
 
           <!-- Budget Report -->
-          <div class="card">
+          <!-- <div class="card">
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
               <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -467,14 +471,14 @@
                 <li><a class="dropdown-item" href="#">This Month</a></li>
                 <li><a class="dropdown-item" href="#">This Year</a></li>
               </ul>
-            </div>
+            </div> -->
 
-            <div class="card-body pb-0">
+            <!-- <div class="card-body pb-0">
               <h5 class="card-title">Budget Report <span>| This Month</span></h5>
 
-              <div id="budgetChart" style="min-height: 400px;" class="echart"></div>
+              <div id="budgetChart" style="min-height: 400px;" class="echart"></div> -->
 
-              <script>
+              <!-- <script>
                 document.addEventListener("DOMContentLoaded", () => {
                   var budgetChart = echarts.init(document.querySelector("#budgetChart")).setOption({
                     legend: {
@@ -523,13 +527,14 @@
                     }]
                   });
                 });
-              </script>
+              </script> -->
 
-            </div>
-          </div><!-- End Budget Report -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <!-- End Budget Report -->
 
           <!-- Website Traffic -->
-          <div class="card">
+          <!-- <div class="card">
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
               <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -541,14 +546,14 @@
                 <li><a class="dropdown-item" href="#">This Month</a></li>
                 <li><a class="dropdown-item" href="#">This Year</a></li>
               </ul>
-            </div>
+            </div> -->
 
-            <div class="card-body pb-0">
+            <!-- <div class="card-body pb-0">
               <h5 class="card-title">Website Traffic <span>| Today</span></h5>
 
-              <div id="trafficChart" style="min-height: 400px;" class="echart"></div>
+              <div id="trafficChart" style="min-height: 400px;" class="echart"></div> -->
 
-              <script>
+              <!-- <script>
                 document.addEventListener("DOMContentLoaded", () => {
                   echarts.init(document.querySelector("#trafficChart")).setOption({
                     tooltip: {
@@ -601,13 +606,14 @@
                     }]
                   });
                 });
-              </script>
+              </script> -->
 
-            </div>
-          </div><!-- End Website Traffic -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <!-- End Website Traffic -->
 
           <!-- News & Updates Traffic -->
-          <div class="card">
+          <!-- <div class="card">
             <div class="filter">
               <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
               <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -621,63 +627,67 @@
               </ul>
             </div>
 
-            <div class="card-body pb-0">
+            <!-- <div class="card-body pb-0">
               <h5 class="card-title">News &amp; Updates <span>| Today</span></h5>
 
-              <div class="news">
+              <!-- <div class="news">
                 <div class="post-item clearfix">
                   <img src="assets/img/news-1.jpg" alt="">
                   <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
                   <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
                 </div>
 
-                <div class="post-item clearfix">
+                <!-- <div class="post-item clearfix">
                   <img src="assets/img/news-2.jpg" alt="">
                   <h4><a href="#">Quidem autem et impedit</a></h4>
                   <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
-                </div>
+                </div> -->
 
-                <div class="post-item clearfix">
+                <!-- <div class="post-item clearfix">
                   <img src="assets/img/news-3.jpg" alt="">
                   <h4><a href="#">Id quia et et ut maxime similique occaecati ut</a></h4>
                   <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
-                </div>
+                </div> -->
 
-                <div class="post-item clearfix">
+                <!-- <div class="post-item clearfix">
                   <img src="assets/img/news-4.jpg" alt="">
                   <h4><a href="#">Laborum corporis quo dara net para</a></h4>
                   <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
-                </div>
+                </div> -->
 
-                <div class="post-item clearfix">
+                <!-- <div class="post-item clearfix">
                   <img src="assets/img/news-5.jpg" alt="">
                   <h4><a href="#">Et dolores corrupti quae illo quod dolor</a></h4>
                   <p>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius...</p>
-                </div>
+                </div> -->
 
-              </div><!-- End sidebar recent posts-->
+              <!-- </div> -->
+              <!-- End sidebar recent posts-->
 
-            </div>
-          </div><!-- End News & Updates -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <!-- End News & Updates -->
 
-        </div><!-- End Right side columns -->
+        <!-- </div> -->
+        <!-- End Right side columns -->
 
-      </div>
+      <!-- </div> -->
     </section>
 
-  </main><!-- End #main -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>McTaylor Fashion House</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Designed by <a href="https://www.yelocodesystems.com/">Yelocode</a>
     </div>
   </footer><!-- End Footer -->
 
