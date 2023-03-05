@@ -9,7 +9,12 @@
 
 <body>
 
-    
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30"><img src="./assets/img/logo.png" width="48" height="48" alt="McTaylor"></div>
+            <p>Please wait...</p>
+        </div>
+    </div>
     <?php
     include_once "component/header.php"
     ?>
@@ -87,7 +92,7 @@
                             </div>
 
                             <div class="credits">
-                              
+
                                 Designed by <a href="https://yelocodesystems.com">YeloDevs</a>
                             </div>
 

@@ -9,7 +9,12 @@
 
 <body>
 
-    <!-- ======= Header ======= -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30"><img src="./assets/img/logo.png" width="48" height="48" alt="McTaylor"></div>
+            <p>Please wait...</p>
+        </div>
+    </div>
     <?php
     include_once "component/header.php"
     ?>
@@ -83,7 +88,7 @@
                                         <td>10000</td>
                                         <td>25-02-23</td>
                                         <td>01000290</td>
-                                        
+
                                         <td>2016-05-25</td>
                                         <td>
                                             <div class="dropdown">

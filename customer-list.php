@@ -9,7 +9,12 @@
 
 <body>
 
-    <!-- ======= Header ======= -->
+<div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30"><img src="./assets/img/logo.png" width="48" height="48" alt="McTaylor"></div>
+            <p>Please wait...</p>
+        </div>
+    </div>
     <?php
     include_once "component/header.php"
     ?>
@@ -25,7 +30,7 @@
             <h1>Customer List</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Customer List</a></li>
+                    <li class="breadcrumb-item"><a href="S/N">Customer List</a></li>
                     <li class="breadcrumb-item active">View Customer List Here</li>
                 </ol>
             </nav>
@@ -42,7 +47,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col">#</th>
+                                        <th scope="col">S/N</th>
                                         <th scope="col">Customer Name</th>
                                         <th scope="col">Street</th>
                                         <th scope="col">City</th>
